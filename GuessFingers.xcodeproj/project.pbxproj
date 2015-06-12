@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BD3D5C11B21049E00458F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3D5C01B21049E00458F98 /* AppDelegate.swift */; };
+		4BD3D5C41B21049E00458F98 /* GuessFingers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3D5C21B21049E00458F98 /* GuessFingers.xcdatamodeld */; };
+		4BD3D5C61B21049E00458F98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3D5C51B21049E00458F98 /* ViewController.swift */; };
+		4BD3D5C91B21049E00458F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3D5C71B21049E00458F98 /* Main.storyboard */; };
+		4BD3D5CB1B21049F00458F98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3D5CA1B21049F00458F98 /* Images.xcassets */; };
+		4BD3D5CE1B21049F00458F98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3D5CC1B21049F00458F98 /* LaunchScreen.xib */; };
+		4BD3D5DA1B21049F00458F98 /* GuessFingersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3D5D91B21049F00458F98 /* GuessFingersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BD3D5D41B21049F00458F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BD3D5B31B21049E00458F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD3D5BA1B21049E00458F98;
+			remoteInfo = GuessFingers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BD3D5BB1B21049E00458F98 /* GuessFingers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessFingers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD3D5BF1B21049E00458F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD3D5C01B21049E00458F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BD3D5C31B21049E00458F98 /* GuessFingers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuessFingers.xcdatamodel; sourceTree = "<group>"; };
+		4BD3D5C51B21049E00458F98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BD3D5C81B21049E00458F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BD3D5CA1B21049F00458F98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BD3D5CD1B21049F00458F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4BD3D5D31B21049F00458F98 /* GuessFingersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessFingersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD3D5D81B21049F00458F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD3D5D91B21049F00458F98 /* GuessFingersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFingersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD3D5B81B21049E00458F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD3D5D01B21049F00458F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BD3D5B21B21049E00458F98 = {
+			isa = PBXGroup;
+			children = (
+				4BD3D5BD1B21049E00458F98 /* GuessFingers */,
+				4BD3D5D61B21049F00458F98 /* GuessFingersTests */,
+				4BD3D5BC1B21049E00458F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BD3D5BC1B21049E00458F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3D5BB1B21049E00458F98 /* GuessFingers.app */,
+				4BD3D5D31B21049F00458F98 /* GuessFingersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BD3D5BD1B21049E00458F98 /* GuessFingers */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3D5C01B21049E00458F98 /* AppDelegate.swift */,
+				4BD3D5C51B21049E00458F98 /* ViewController.swift */,
+				4BD3D5C71B21049E00458F98 /* Main.storyboard */,
+				4BD3D5CA1B21049F00458F98 /* Images.xcassets */,
+				4BD3D5CC1B21049F00458F98 /* LaunchScreen.xib */,
+				4BD3D5C21B21049E00458F98 /* GuessFingers.xcdatamodeld */,
+				4BD3D5BE1B21049E00458F98 /* Supporting Files */,
+			);
+			path = GuessFingers;
+			sourceTree = "<group>";
+		};
+		4BD3D5BE1B21049E00458F98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3D5BF1B21049E00458F98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BD3D5D61B21049F00458F98 /* GuessFingersTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3D5D91B21049F00458F98 /* GuessFingersTests.swift */,
+				4BD3D5D71B21049F00458F98 /* Supporting Files */,
+			);
+			path = GuessFingersTests;
+			sourceTree = "<group>";
+		};
+		4BD3D5D71B21049F00458F98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3D5D81B21049F00458F98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BD3D5BA1B21049E00458F98 /* GuessFingers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD3D5DD1B21049F00458F98 /* Build configuration list for PBXNativeTarget "GuessFingers" */;
+			buildPhases = (
+				4BD3D5B71B21049E00458F98 /* Sources */,
+				4BD3D5B81B21049E00458F98 /* Frameworks */,
+				4BD3D5B91B21049E00458F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessFingers;
+			productName = GuessFingers;
+			productReference = 4BD3D5BB1B21049E00458F98 /* GuessFingers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BD3D5D21B21049F00458F98 /* GuessFingersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD3D5E01B21049F00458F98 /* Build configuration list for PBXNativeTarget "GuessFingersTests" */;
+			buildPhases = (
+				4BD3D5CF1B21049F00458F98 /* Sources */,
+				4BD3D5D01B21049F00458F98 /* Frameworks */,
+				4BD3D5D11B21049F00458F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BD3D5D51B21049F00458F98 /* PBXTargetDependency */,
+			);
+			name = GuessFingersTests;
+			productName = GuessFingersTests;
+			productReference = 4BD3D5D31B21049F00458F98 /* GuessFingersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BD3D5B31B21049E00458F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Appfish;
+				TargetAttributes = {
+					4BD3D5BA1B21049E00458F98 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4BD3D5D21B21049F00458F98 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4BD3D5BA1B21049E00458F98;
+					};
+				};
+			};
+			buildConfigurationList = 4BD3D5B61B21049E00458F98 /* Build configuration list for PBXProject "GuessFingers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BD3D5B21B21049E00458F98;
+			productRefGroup = 4BD3D5BC1B21049E00458F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BD3D5BA1B21049E00458F98 /* GuessFingers */,
+				4BD3D5D21B21049F00458F98 /* GuessFingersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BD3D5B91B21049E00458F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD3D5C91B21049E00458F98 /* Main.storyboard in Resources */,
+				4BD3D5CE1B21049F00458F98 /* LaunchScreen.xib in Resources */,
+				4BD3D5CB1B21049F00458F98 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD3D5D11B21049F00458F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BD3D5B71B21049E00458F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD3D5C61B21049E00458F98 /* ViewController.swift in Sources */,
+				4BD3D5C41B21049E00458F98 /* GuessFingers.xcdatamodeld in Sources */,
+				4BD3D5C11B21049E00458F98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD3D5CF1B21049F00458F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD3D5DA1B21049F00458F98 /* GuessFingersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BD3D5D51B21049F00458F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BD3D5BA1B21049E00458F98 /* GuessFingers */;
+			targetProxy = 4BD3D5D41B21049F00458F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BD3D5C71B21049E00458F98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD3D5C81B21049E00458F98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BD3D5CC1B21049F00458F98 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD3D5CD1B21049F00458F98 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BD3D5DB1B21049F00458F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BD3D5DC1B21049F00458F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BD3D5DE1B21049F00458F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessFingers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BD3D5DF1B21049F00458F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessFingers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BD3D5E11B21049F00458F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessFingersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessFingers.app/GuessFingers";
+			};
+			name = Debug;
+		};
+		4BD3D5E21B21049F00458F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessFingersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessFingers.app/GuessFingers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BD3D5B61B21049E00458F98 /* Build configuration list for PBXProject "GuessFingers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD3D5DB1B21049F00458F98 /* Debug */,
+				4BD3D5DC1B21049F00458F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD3D5DD1B21049F00458F98 /* Build configuration list for PBXNativeTarget "GuessFingers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD3D5DE1B21049F00458F98 /* Debug */,
+				4BD3D5DF1B21049F00458F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BD3D5E01B21049F00458F98 /* Build configuration list for PBXNativeTarget "GuessFingersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD3D5E11B21049F00458F98 /* Debug */,
+				4BD3D5E21B21049F00458F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BD3D5C21B21049E00458F98 /* GuessFingers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BD3D5C31B21049E00458F98 /* GuessFingers.xcdatamodel */,
+			);
+			currentVersion = 4BD3D5C31B21049E00458F98 /* GuessFingers.xcdatamodel */;
+			path = GuessFingers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BD3D5B31B21049E00458F98 /* Project object */;
+}
